@@ -4,7 +4,7 @@ var app = new Vue({
         return {
         todos: [
           { text : 'Hair', 
-              subTodos : [{ text : 'doll/hair1.png'}, { text : 'doll/hair2.png'}, { text : 'doll/hair3.png'}, { text : 'doll/hair4.png'}]
+              subTodos : [{ text : 'doll/hair1.png'}, { text : 'doll/hair2.png'}, { text : 'doll/hair3.png'}, { text : 'doll/hair4.png'}, { text : 'doll/hair5.png'}]
           },
           { text : 'Shirts', 
               subTodos : [{ text : 'doll/shirt1.png'}, { text : 'doll/shirt2.png'}, { text : 'doll/shirt3.png'}, { text : 'doll/shirt4.png'}]
