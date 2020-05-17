@@ -9,7 +9,7 @@ Vue.component('todo-item', {
         return {
         todos: [
           { text : 'hair', 
-              subTodos : [{ text : 'hair1.png'}, { text : 'why am i developing on windows'}, { text : 'Testing'}]
+              subTodos : [{ text : 'hair1.png here'}, { text : 'why am i developing on windows'}, { text : 'Testing'}]
           },
           { text : 'shirts', 
               subTodos : [{ text : 'shirt'}, { text : 't-shirt'}, { text : 'shirt'}]
