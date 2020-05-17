@@ -14,8 +14,8 @@
          <li v-for="todo in todos">
            {{ todo.text }}
            <ul>
-             <todo-item v-for="subtodo in todo.subTodos" v-bind:subtodo="subtodo"></todo-item>
-           </ul>
+            <img v-for="subtodo in todo.subTodos" :src="subtodo.text">
+            </ul>
          </li>
        </ul>
  </div>
