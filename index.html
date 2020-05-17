@@ -1,3 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="main.js"></script>
 <link href="main.css" rel="stylesheet" type="text/css">
-
+<body>
+<div class="doll">
+    :)
+</div>
+    <div id="app">
+       <ul>
+         <li v-for="todo in todos">
+           {{ todo.text }}
+           <ul>
+             <todo-item v-for="subtodo in todo.subTodos" v-bind:subtodo="subtodo"></todo-item>
+           </ul>
+         </li>
+       </ul>
+ </div>
+ </body>

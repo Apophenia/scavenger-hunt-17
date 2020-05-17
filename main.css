@@ -2,3 +2,11 @@ body {
     background-image: url("assets/SparkleBack.gif");
     background-repeat: repeat;
   }
+div {
+    background-color: lightpink;
+}
+.doll {
+    width: 100px;
+    height: 198px;
+    margin: auto;
+}
