@@ -9,4 +9,5 @@ div {
     width: 100px;
     height: 198px;
     margin: auto;
+    background-image: url("doll/base.png");
 }
