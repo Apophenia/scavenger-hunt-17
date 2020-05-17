@@ -5,15 +5,15 @@
 <script src="vue.js"></script>
 <link href="main.css" rel="stylesheet" type="text/css">
 <body>
-<div class="doll">
+<div class="doll" id="doll">
 </div>
-<p>This item isn't fully functional but look at all the assets we made</a>!</p>
+<p>you can only put clothes on and not take them off, but dressing with layers is the way to go anyway :)</a>!</p>
     <div id="app">
        <ul>
          <li v-for="todo in todos">
            {{ todo.text }}
            <ul>
-            <img v-for="subtodo in todo.subTodos" :src="subtodo.text">
+            <img v-for="subtodo in todo.subTodos" :src="subtodo.text" @click="() => handleSelect(subtodo.text)">
             </ul>
          </li>
        </ul>

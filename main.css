@@ -11,3 +11,6 @@ div {
     margin: auto;
     background-image: url("doll/base.png");
 }
+.abspos {
+    position: absolute;
+}

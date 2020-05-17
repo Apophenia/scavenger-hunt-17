@@ -1,5 +1,16 @@
 var app = new Vue({
     el: '#app',
+    methods: {
+        handleSelect(imgSrc) {
+          this.selected = imgSrc;
+          console.log("clicked " + this.selected);
+          var img = document.createElement("img");
+          img.src = this.selected;
+          var src = document.getElementById("doll");
+          img.className += "abspos";
+          src.appendChild(img);
+        }
+      },
     data: function () {
         return {
         todos: [
