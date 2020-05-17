@@ -10,7 +10,7 @@ var app = new Vue({
               subTodos : [{ text : 'doll/shirt1.png'}, { text : 'doll/shirt2.png'}, { text : 'doll/shirt3.png'}, { text : 'doll/shirt4.png'}]
           },
           { text : 'Pants', 
-              subTodos : [{ text : 'doll/pants1.png'}, { text : 'doll/pants2.png'}, { text : 'doll/pants4.png'}, { text : 'doll/pants4.png'}]
+              subTodos : [{ text : 'doll/pants1.png'}, { text : 'doll/pants2.png'}, { text : 'doll/pants3.png'}, { text : 'doll/pants4.png'}]
         },
         { text : 'Shoes', 
               subTodos : [{ text : 'doll/shoe1.png'}, { text : 'doll/shoe2.png'}, { text : 'doll/shoe3.png'}, { text : 'doll/shoe4.png'}]
