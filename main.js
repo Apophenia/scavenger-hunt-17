@@ -33,3 +33,15 @@ var app = new Vue({
         }
     }
   })
+  document.getElementById('first').onclick = function changeContent() {
+    document.getElementById('doll').style.backgroundImage='url("doll/base.png")'
+ }
+
+
+  document.getElementById('second').onclick = function changeContent() {
+    document.getElementById('doll').style.backgroundImage='url("doll/base2.png")'
+ }
+
+ document.getElementById('third').onclick = function changeContent() {
+    document.getElementById('doll').style.backgroundImage='url("doll/base3.png")'
+ }
