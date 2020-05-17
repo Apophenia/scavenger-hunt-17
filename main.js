@@ -17,7 +17,7 @@ var app = new Vue({
         },
           { text : 'Accessories', 
                 subTodos : [{ text : 'doll/acc1.png'}, { text : 'doll/acc2.png'}, { text : 'doll/acc3.png'}, { text : 'doll/acc4.png'}, { text : 'doll/acc5.png'}]
-          },
+          }
         ]
         }
     }
